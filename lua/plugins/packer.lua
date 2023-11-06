@@ -37,6 +37,12 @@ return require('packer').startup({function(use)
     "nvim-treesitter/nvim-treesitter",
     run = ":TSUpdate",
   }
+  use {
+    "HiPhish/nvim-ts-rainbow2",
+  }
+  use {
+    "nvim-treesitter/playground"
+  }
 
   -- () pairs
   use {
