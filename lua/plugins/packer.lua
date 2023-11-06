@@ -40,6 +40,10 @@ return require('packer').startup({function(use)
   }
 
   use "yamatsum/nvim-cursorline"
+  -- comment code
+  use {
+    "terrortylor/nvim-comment"
+  }
 
 end,
 

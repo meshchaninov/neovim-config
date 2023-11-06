@@ -85,6 +85,11 @@ _G.packer_plugins = {
     path = "/Users/nikita/.local/share/nvim/site/pack/packer/start/nvim-autopairs",
     url = "https://github.com/windwp/nvim-autopairs"
   },
+  ["nvim-comment"] = {
+    loaded = true,
+    path = "/Users/nikita/.local/share/nvim/site/pack/packer/start/nvim-comment",
+    url = "https://github.com/terrortylor/nvim-comment"
+  },
   ["nvim-cursorline"] = {
     loaded = true,
     path = "/Users/nikita/.local/share/nvim/site/pack/packer/start/nvim-cursorline",
