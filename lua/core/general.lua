@@ -1,5 +1,6 @@
 local options = {
   clipboard = "unnamedplus",
+  colorcolumn = "80",
   mouse = "a",
   scrolloff = 8,
   sidescrolloff = 8,
