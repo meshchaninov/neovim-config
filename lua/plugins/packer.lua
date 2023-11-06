@@ -27,6 +27,9 @@ return require('packer').startup({function(use)
     }
   }
 
+  -- Harpoon
+  use 'nvim-lua/plenary.nvim'
+  use 'ThePrimeagen/harpoon'
 
   --- EDITOR ---
   -- Highlight words and lines on the cursor for Neovim
@@ -64,3 +67,4 @@ config = {
     end
   }
 }})
+
