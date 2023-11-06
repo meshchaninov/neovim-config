@@ -28,18 +28,23 @@ return require('packer').startup({function(use)
     }
   }
 
-  -- 
+
+  --- EDITOR ---
+  -- Highlight words and lines on the cursor for Neovim
+  use "yamatsum/nvim-cursorline"
+
   -- Treesitter
   use {
     "nvim-treesitter/nvim-treesitter",
     run = ":TSUpdate",
   }
+
+  -- () pairs
   use {
     "windwp/nvim-autopairs",
     config = function() require("nvim-autopairs").setup {} end
   }
 
-  use "yamatsum/nvim-cursorline"
   -- comment code
   use {
     "terrortylor/nvim-comment"
