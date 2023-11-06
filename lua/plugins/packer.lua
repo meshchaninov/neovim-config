@@ -17,7 +17,6 @@ return require('packer').startup({function(use)
 
   -- Color scheme
   use 'sainnhe/sonokai'
-  use 'Bekaboo/deadcolumn.nvim'
   use 'tribela/vim-transparent'
 
   -- Nvim-tree
