@@ -1,5 +1,4 @@
 require("plugins.configs.colorscheme")
-require("plugins.configs.cursorline")
 require("plugins.configs.harpoon")
 require("plugins.configs.lsp")
 require("plugins.configs.nvim-tree")

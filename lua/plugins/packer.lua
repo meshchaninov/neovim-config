@@ -33,17 +33,13 @@ return require('packer').startup({function(use)
   use 'ThePrimeagen/harpoon'
 
   --- EDITOR ---
-  -- Highlight words and lines on the cursor for Neovim
-  use "yamatsum/nvim-cursorline"
+  --- Tabnine
   use { 'codota/tabnine-nvim', run = "./dl_binaries.sh" }
 
   -- Treesitter
   use {
     "nvim-treesitter/nvim-treesitter",
     run = ":TSUpdate",
-  }
-  use {
-    "HiPhish/nvim-ts-rainbow2",
   }
   use {
     "nvim-treesitter/playground"
