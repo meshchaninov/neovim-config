@@ -10,7 +10,7 @@ require('nvim_comment').setup({
   -- Normal mode mapping left hand side
   line_mapping = "gcc",
   -- Visual/Operator mapping left hand side
-  operator_mapping = "<C-/>",
+  operator_mapping = "<C-c>",
   -- text object mapping, comment chunk,,
   comment_chunk_text_object = "ic",
   -- Hook function to call before commenting takes place

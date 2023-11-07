@@ -24,7 +24,7 @@ local options = {
   fillchars = {
     eob = " "
   },
-  numberwidth = 6,
+  numberwidth = 4,
 }
 
 vim.cmd([[
