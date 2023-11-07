@@ -10,7 +10,7 @@ return require('packer').startup({function(use)
   -- Telescope
   use {
       'nvim-telescope/telescope.nvim', tag = '0.1.4',
-      requires = { 
+      requires = {
         {'nvim-lua/plenary.nvim'},
       },
   }
@@ -35,6 +35,7 @@ return require('packer').startup({function(use)
   --- EDITOR ---
   -- Highlight words and lines on the cursor for Neovim
   use "yamatsum/nvim-cursorline"
+  use { 'codota/tabnine-nvim', run = "./dl_binaries.sh" }
 
   -- Treesitter
   use {
