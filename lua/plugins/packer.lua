@@ -56,9 +56,11 @@ return require('packer').startup({function(use)
 
   -- comment code
   use {
-    "terrortylor/nvim-comment"
+      'numToStr/Comment.nvim',
+      config = function()
+          require('Comment').setup()
+      end
   }
-
   -- LSP
   use {
     'VonHeikemen/lsp-zero.nvim',
