@@ -16,8 +16,9 @@ return require('packer').startup({function(use)
   }
 
   -- Color scheme
-  use 'sainnhe/sonokai'
-  use 'tribela/vim-transparent'
+  use "rebelot/kanagawa.nvim"
+  -- use 'tribela/vim-transparent'
+
 
   -- Nvim-tree
   use {
